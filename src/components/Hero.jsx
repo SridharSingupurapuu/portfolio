@@ -5,6 +5,10 @@ import TypewriterComponent from "typewriter-effect";
 import { sridhar } from "../assets";
 
 const Hero = () => {
+  const handleClick = () => {
+    window.open("/Sridhar_resume.pdf", "_blank");
+  };
+
   return (
     <section className="relative w-full h-screen mx-auto">
       <div className="flex flex-col lg:flex-row justify-end">
@@ -39,6 +43,14 @@ const Hero = () => {
               <br className="sm:block hidden" /> for creating visually stunning
               and user-friendly <br className="sm:block hidden" /> websites.
             </p>
+
+            <button
+              className="text-white bg-red-700 mt-4 flex items-center xs:py-1 xs:px-1.5 sm:py-1.5 xs:text-[15px] sm:px-2 rounded-md"
+              onClick={handleClick}
+            >
+              {" "}
+              Resume{" "}
+            </button>
           </div>
         </div>
 
