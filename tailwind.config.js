@@ -1,4 +1,5 @@
 /** @type {import('tailwindcss').Config} */
+const defaultTheme = require("tailwindcss/defaultTheme");
 module.exports = {
   content: ["./src/**/*.{js,jsx}"],
   mode: "jit",
@@ -17,6 +18,8 @@ module.exports = {
       },
       screens: {
         xs: "450px",
+        dxs: "300px",
+        ...defaultTheme.screens,
       },
       backgroundImage: {
         "hero-pattern": "url('/src/assets/herobg.png')",
