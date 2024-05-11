@@ -10,10 +10,10 @@ const Hero = () => {
   };
 
   return (
-    <section className="relative w-full h-screen mx-auto">
+    <section className="relative w-full h-screen mx-auto mb-5">
       <div className="flex flex-col lg:flex-row justify-end">
         <div
-          className={`${styles.paddingX} absolute inset-0 dxs:mt-[125px] xs:mt-[136px] top-[120px] lg:m-auto max-w-7xl mx-auto flex flex-row items-start gap-5`}
+          className={`${styles.paddingX} absolute inset-0 dxs:mt-[180px] xs:mt-[136px] top-[120px] lg:m-auto max-w-7xl mx-auto flex flex-row items-start gap-5`}
         >
           <div className="flex flex-col  justify-center items-center mt-5">
             <div className="w-5 h-5 rounded-full bg-[#915eff]" />
@@ -38,14 +38,14 @@ const Hero = () => {
               </span>
             </p>
 
-            <p className="mt-5 text-[13px] xs:text-[15px] sm:text-[18px]">
+            <p className="mt-5 text-[15px] xs:text-[15px] sm:text-[18px]">
               Experienced frontend developer with a passion{" "}
               <br className="sm:block hidden" /> for creating visually stunning
               and user-friendly <br className="sm:block hidden" /> websites.
             </p>
 
             <button
-              className="text-white bg-red-700 mt-4 flex items-center py-1 px-1.5 text-[13px] xs:py-1 xs:px-1.5 sm:py-1.5 xs:text-[15px] sm:px-2 rounded-md"
+              className="text-white bg-red-700 mt-4 flex items-center py-1 px-1.5 text-[15px] xs:py-1 xs:px-1.5 sm:py-1.5 xs:text-[15px] sm:px-2 rounded-md"
               onClick={handleClick}
             >
               {" "}
@@ -58,7 +58,7 @@ const Hero = () => {
           <img
             src={sridhar}
             alt="sridhar"
-            className="rounded-full dxs:w-[150px] dxs:h-[150px] dxs:mt-24 dxs:mx-auto lg:mt-36 lg:w-[210px] lg:h-[210px]"
+            className="rounded-full dxs:w-[150px] dxs:h-[150px] dxs:mt-28 dxs:mx-auto lg:mt-36 lg:w-[210px] lg:h-[210px]"
           />
         </div>
       </div>
