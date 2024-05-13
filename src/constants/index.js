@@ -19,8 +19,8 @@ import {
   starbucks,
   tesla,
   shopify,
-  carrent,
-  jobit,
+  foodhome,
+  portfoliohome,
   tripguide,
   threejs,
   datafoundry,
@@ -160,7 +160,7 @@ const projects = [
         color: "pink-text-gradient",
       },
     ],
-    image: carrent,
+    image: foodhome,
     source_code_link: "https://github.com/",
   },
   {
@@ -181,7 +181,7 @@ const projects = [
         color: "pink-text-gradient",
       },
     ],
-    image: jobit,
+    image: portfoliohome,
     source_code_link: "https://github.com/",
   },
 ];

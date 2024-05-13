@@ -28,8 +28,8 @@ import starbucks from "./company/starbucks.png";
 import tesla from "./company/tesla.png";
 import datafoundry from "./company/datafoundry.png";
 
-import carrent from "./carrent.png";
-import jobit from "./jobit.png";
+import foodhome from "./foodhome.png";
+import portfoliohome from "./portfoliohome.png";
 import tripguide from "./tripguide.png";
 
 export {
@@ -59,8 +59,8 @@ export {
   shopify,
   starbucks,
   tesla,
-  carrent,
-  jobit,
+  foodhome,
+  portfoliohome,
   tripguide,
   sridhar,
   datafoundry,
